@@ -62,16 +62,16 @@ body {
   margin: 1px;
 } */
 
-#css-cv-body {
+/* #css-cv-body {
   padding: 0px;
   margin: 0px;
   background-color: rgb(255, 94, 0);
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-}
+} */
 
 /* #css-cv-body li { */
-  /* list-style: none;
+/* list-style: none;
   padding: 0px;
   margin: 0px;
   background-color:red; */
@@ -83,21 +83,21 @@ body {
   line-height: 1.6em;
 } */
 
-.school > li{
-  /* list-style: none; */
+/* .school > li{
+
   list-style: none;
   padding-left: 48px;
-  
 
-  /* list-style-image: url("../images/graduate_reformated.png"); */
+
+
   background-image: url("../images/graduate_reformated.png");
   background-repeat: no-repeat;
   background-position-x: 10px;
   
 
-}
+} */
 
-#css-cv-body a {
+/* #css-cv-body a {
   color: rgb(200, 200, 200);
   text-decoration: none;
   padding: 3px;
@@ -118,25 +118,14 @@ p {
   margin: 0px;
   padding: 0px;
 }
-/* #css-cv-body h3 {
-  margin-top: 40px;
-  margin-bottom: 5px;
-} */
 
 #css-main-header {
-  /* padding: 0px;
-  margin: 0px; */
   background-color: rgb(0, 0, 0);
   color: rgb(200, 200, 200);
   display: flex;
   align-items: stretch;
   justify-content: center;
 }
-
-/* .header-content { */
-/* padding: 0 50px; */
-
-/* } */
 
 #css-main-header p {
   line-height: 1.6em;
@@ -150,7 +139,6 @@ p {
   border-radius: 50%;
 }
 
-
 #cv-main-body {
   background-color: rgb(201, 201, 201);
   display: flex;
@@ -163,7 +151,6 @@ p {
   color: rgb(200, 200, 200);
   background-color: black;
   padding: 20px;
-  /* width: 20%; */
+
   align-content: center;
-  /* flex-basis: 15%; */
-}
+} */
