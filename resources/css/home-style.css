@@ -70,16 +70,31 @@ body {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-#css-cv-body li {
-  list-style: none;
+/* #css-cv-body li { */
+  /* list-style: none;
   padding: 0px;
   margin: 0px;
-}
-
+  background-color:red; */
+/* } */
+/* 
 #css-cv-body ul {
   padding: 0px;
   list-style-type: none;
   line-height: 1.6em;
+} */
+
+.school > li{
+  /* list-style: none; */
+  list-style: none;
+  padding-left: 48px;
+  
+
+  /* list-style-image: url("../images/graduate_reformated.png"); */
+  background-image: url("../images/graduate_reformated.png");
+  background-repeat: no-repeat;
+  background-position-x: 10px;
+  
+
 }
 
 #css-cv-body a {
@@ -135,10 +150,6 @@ p {
   border-radius: 50%;
 }
 
-/* #cv-main-body h2 {
-  padding: 0px;
-  margin: 0px;
-} */
 
 #cv-main-body {
   background-color: rgb(201, 201, 201);
@@ -147,11 +158,6 @@ p {
   align-items: stretch;
   justify-content: center;
 }
-
-/* 
-#history{
-  flex-basis: 35%;
-} */
 
 #details {
   color: rgb(200, 200, 200);
