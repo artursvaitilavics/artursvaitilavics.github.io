@@ -39,6 +39,7 @@ h2,
 h3,
 h4,
 h5,
+p,
 div {
   padding: 0px;
   margin: 0px;
@@ -48,23 +49,30 @@ body {
   /* overflow-x: hidden; */
   font-family: sans-serif;
   margin-top: 0px;
+  line-height: 1.6em;
 }
 
 header {
   background-color: rgb(0, 0, 0);
   color: rgb(200, 200, 200);
   padding: 15px 25px 5px 45px;
-  line-height: 1.6em;
 }
 
-#name{
+header p {
+  padding-right: 55px;
+}
+
+#name {
   letter-spacing: 6px;
 }
 
-#jun-soft-dev{
+#jun-soft-dev {
   letter-spacing: 5px;
 }
 
+#about-me {
+  padding-top: 10px;
+}
 @media (min-width: 768px) {
   header {
     display: flex;
@@ -72,28 +80,113 @@ header {
     justify-content: center;
   }
 
+  img {
+    position: relative;
+    transform: translateX(10px);
+    transform: translateY(-15px);
+  }
+
   body {
     width: 1200px;
     margin: auto;
   }
+
+  #main {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+  }
+  #history-container {
+    display: flex;
+    /* align-items: stretch; */
+    justify-content: space-between;
+  }
+
+  /* #education:nth-of-type(1) {
+    order: 2;
+  } */
 }
 
-img {
+#history-container:nth-child(2) {
+  padding: 20px;
+  background-color: red;
+}
+/* .history-container:nth-child(even) {
+  padding: 20px;
+  background-color: green;
+} */
+
+#my-pic {
   width: 200px;
   height: 200px;
   object-position: 0 20%;
   object-fit: cover;
   border-radius: 50%;
 
+  /* transform: translateX(50px);  */
   transition: 1s;
 }
 
-img:hover {
+#my-pic:hover {
   filter: invert();
 }
 
 #main {
   margin: 0px;
   padding: 0px;
-  background-color: beige;
+  background-color: rgb(216, 216, 216);
+}
+
+#main h2 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#history {
+  padding: 25px;
+}
+
+#details {
+  color: rgb(200, 200, 200);
+  background-color: black;
+  padding: 25px;
+}
+
+#education {
+  padding-left: 55px;
+  background-image: url("../images/graduate_reformated.png");
+  background-repeat: no-repeat;
+  background-position-y: 15px;
+  background-position-x: 5px;
+}
+
+#work-experience {
+  padding-left: 55px;
+  background-image: url("../images/work_icon_reformated.png");
+  background-repeat: no-repeat;
+  background-position-y: 15px;
+  background-position-x: 5px;
+}
+
+#details ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  /* background-color: rgb(207, 110, 110); */
+}
+
+#details li {
+  transition: 0.25s;
+  /* padding: 5px; */
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+.contacts-links:hover {
+  background-color: rgb(59, 59, 59);
+}
+
+a {
+  color: rgb(200, 200, 200);
+  text-decoration: none;
 }
