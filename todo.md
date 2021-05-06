@@ -1,1 +1,1 @@
-1. Add description under main navbar buttons.
+1. Remove gap between EDUCATION/WORK EXPERIENCE and CARD
