@@ -2,7 +2,6 @@ h1 {
   margin: 0;
   padding: 10;
   font-weight: 400;
-  
 }
 
 body {
@@ -20,23 +19,20 @@ header {
   width: 100%;
   display: flex;
   justify-content: center;
-  letter-spacing: 12px;
+  letter-spacing: 3px;
   background-color: black;
   color: rgb(221, 221, 221);
 }
 
-
-.title-container{
+.title-container {
   background-color: rgb(206, 206, 206);
   border-radius: 10px 10px 0px 0px;
-  
-  margin-top: 30px;
-  padding: 0px 25px 0px 25px;
-  width: 360px;
+  margin-top: 10px;
+  padding: 0px 10px 0px 10px;
+  width: 280px;
 }
 
-
-.title-container h3{
+.title-container h3 {
   margin-right: 0px;
   margin-left: 0px;
   padding-right: 0;
@@ -45,46 +41,76 @@ header {
   letter-spacing: 1px;
 }
 
-.title-container p{
+.title-container p {
   padding-bottom: 25px;
   font-size: small;
-  margin-top:0px;
+  margin-top: 0px;
   padding-top: 0px;
 }
-
 
 #body-content {
   background-color: rgb(231, 231, 231);
   border-radius: 0px 0px 10px 10px;
-  /* margin-top: 30px; */
-  padding: 10px 25px 0px 25px;
-  width: 360px;
+  padding: 10px 10px 0px 10px;
+  width: 280px;
 }
-
-
 
 .container {
   margin-left: 15px;
 }
 
-
-ul{
-  padding-top:0px;
+ul {
+  padding-top: 0px;
   margin-top: 0px;
 }
 
-p{
+p {
   padding-bottom: 0px;
   margin-bottom: 0px;
 }
 
-ul{
+ul {
   padding: 5px 0px 0px 5px;
-  
-  list-style-type : none;
-  
+
+  list-style-type: none;
 }
 
-li{
+li {
   font-size: smaller;
+}
+
+@media (min-width: 768px) {
+  h1 {
+    margin: 0;
+    padding: 10;
+    font-weight: 400;
+  }
+
+  header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 12px;
+    background-color: black;
+    color: rgb(221, 221, 221);
+  }
+  
+
+  .title-container {
+    background-color: rgb(206, 206, 206);
+    border-radius: 10px 10px 0px 0px;
+    margin-top: 30px;
+    padding: 0px 25px 0px 25px;
+    width: 360px;
+  }
+
+  #body-content {
+    background-color: rgb(231, 231, 231);
+    border-radius: 0px 0px 10px 10px;
+    padding: 10px 25px 0px 25px;
+    width: 360px;
+  }
+  
+  
+
 }
