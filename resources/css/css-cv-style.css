@@ -1,36 +1,37 @@
 #navbar {
-    padding: 0px;
-    margin: 0px;
-    background-color: rgb(0, 0, 0);
-    display: flex;
-    justify-content: center;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding: 0px;
+  margin: 0px;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 #navbar li {
-    list-style: none;
+  list-style: none;
 }
 
 #navbar a {
-    display: flex;
-    text-decoration: none;
-    justify-content: center;
-    padding: 5px;
-    border: none;
-    color: rgb(255, 255, 255);
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    transition: 0.4s;
-    transition-timing-function: ease-out;
-    font-weight: 500;
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
+  padding: 5px;
+  border: none;
+  color: rgb(255, 255, 255);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  transition: 0.4s;
+  transition-timing-function: ease-out;
+  font-weight: 500;
 }
 
 #navbar a:hover {
-    background-color: rgb(59, 59, 59);
+  background-color: rgb(59, 59, 59);
 }
 
 * {
-    font-weight: lighter;
+  font-weight: lighter;
 }
 
 h1,
@@ -40,181 +41,198 @@ h4,
 h5,
 p,
 div {
-    padding: 0px;
-    margin: 0px;
+  padding: 0px;
+  margin: 0px;
 }
 
 body {
-    /* overflow-x: hidden; */
-    font-family: sans-serif;
-    margin-top: 0px;
-    line-height: 1.6em;
+  /* overflow-x: hidden; */
+  font-family: sans-serif;
+  margin-top: 0px;
+  line-height: 1.6em;
 }
 
 header {
-    background-color: rgb(0, 0, 0);
-    color: rgb(200, 200, 200);
-    padding: 15px 25px 5px 45px;
-    /* border-radius: 10px; */
+  background-color: rgb(0, 0, 0);
+  color: rgb(200, 200, 200);
+  padding: 15px 25px 5px 45px;
+  /* border-radius: 10px; */
 }
-
 
 /* header:hover {
   background-color: rgb(19, 19, 19);
 } */
 
 header p {
-    padding-right: 55px;
+  padding-right: 55px;
 }
 
 #name {
-    letter-spacing: 6px;
+  letter-spacing: 6px;
 }
 
 #jun-soft-dev {
-    letter-spacing: 5px;
+  letter-spacing: 5px;
 }
 
 #about-me {
-    padding-top: 10px;
+  padding-top: 10px;
 }
 
 @media (min-width: 768px) {
-    header {
-        display: flex;
-        align-items: stretch;
-        justify-content: center;
-    }
-    img {
-        position: relative;
-        transform: translateX(10px);
-        transform: translateY(-15px);
-    }
-    body {
-        width: 1200px;
-        margin: auto;
-    }
-    #main {
-        display: flex;
-        justify-content: space-between;
-    }
-    .history-container {
-        display: flex;
-        width: 900px;
-        justify-content: space-between;
-        align-items: start;
-        flex-wrap: wrap;
-    }
-    .hist-container {
-        width: 400px;
-    }
+  header {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+  }
+  img {
+    position: relative;
+    transform: translateX(10px);
+    transform: translateY(-15px);
+  }
+  body {
+    width: 1200px;
+    margin: auto;
+  }
+  #main {
+    display: flex;
+    justify-content: space-between;
+  }
+  .history-container {
+    display: flex;
+    width: 900px;
+    justify-content: space-between;
+    align-items: start;
+    flex-wrap: wrap;
+  }
+  .hist-container {
+    width: 400px;
+  }
 }
 
 .history-container a {
-    color: black;
-    text-decoration: none;
+  color: black;
+  text-decoration: none;
 }
 
 .hist-container {
-    padding: 10px;
-    margin-bottom: 5px;
-    margin-left: 3px;
-    /* margin: auto; */
-    border-radius: 10px;
-    transition: 0.25s;
-    background-color: rgb(221, 221, 221);
+  padding: 10px;
+  margin-bottom: 5px;
+  margin-left: 3px;
+  /* margin: auto; */
+  border-radius: 10px;
+  transition: 0.25s;
+  background-color: rgb(221, 221, 221);
 }
 
 .hist-container:hover {
-    position: relative;
-    left: -1px;
-    top: -2px;
-    background-color: rgb(223, 223, 223);
-    filter: drop-shadow(5px 3px 2px #c9c9c9);
+  position: relative;
+  left: -1px;
+  top: -2px;
+  background-color: rgb(223, 223, 223);
+  filter: drop-shadow(5px 3px 2px #c9c9c9);
 }
 
 .hist-container:active:hover {
-    position: relative;
-    left: +1px;
-    top: +2px;
-    background-color: rgb(235, 235, 235);
-    filter: drop-shadow(3px 2px 1px #c9c9c9);
-    /* transition: 0.01s; */
+  position: relative;
+  left: +1px;
+  top: +2px;
+  background-color: rgb(235, 235, 235);
+  filter: drop-shadow(3px 2px 1px #c9c9c9);
+  /* transition: 0.01s; */
 }
 
 #my-pic {
-    width: 200px;
-    height: 200px;
-    object-position: 0 20%;
-    object-fit: cover;
-    border-radius: 50%;
-    /* transform: translateX(50px);  */
-    transition: 1s;
+  width: 200px;
+  height: 200px;
+  object-position: 0 20%;
+  object-fit: cover;
+  border-radius: 50%;
+  /* transform: translateX(50px);  */
+  transition: 1s;
 }
 
 #my-pic:hover {
-    filter: invert();
+  filter: invert();
 }
 
 #main {
-    margin: 0px;
-    padding: 0px;
-    background-color: rgb(216, 216, 216);
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(216, 216, 216);
 }
 
 #main h2 {
-    padding-top: 15px;
-    padding-bottom: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 #history {
-    padding: 25px;
+  padding: 25px;
 }
 
 #details {
-    color: rgb(200, 200, 200);
-    background-color: black;
-    padding: 25px;
+  color: rgb(200, 200, 200);
+  background-color: black;
+  padding: 25px;
+  padding-top: 10px;
 }
 
 #education {
-    padding-left: 55px;
-    background-image: url("../images/graduate_reformated.png");
-    background-repeat: no-repeat;
-    background-position-y: 15px;
-    background-position-x: 5px;
+  padding-left: 55px;
+  background-image: url("../images/graduate_reformated.png");
+  background-repeat: no-repeat;
+  background-position-y: 15px;
+  background-position-x: 5px;
 }
 
 #work-experience {
-    /* padding-top: 15px; */
-    margin-top: 25px;
-    padding-left: 55px;
-    background-image: url("../images/work_icon_reformated.png");
-    background-repeat: no-repeat;
-    background-position-y: 15px;
-    background-position-x: 5px;
+  /* padding-top: 15px; */
+  margin-top: 25px;
+  padding-left: 55px;
+  background-image: url("../images/work_icon_reformated.png");
+  background-repeat: no-repeat;
+  background-position-y: 15px;
+  background-position-x: 5px;
 }
 
 #details ul {
-    list-style-type: none;
-    margin: 0px;
-    padding: 0px;
-    /* background-color: rgb(207, 110, 110); */
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  /* background-color: rgb(207, 110, 110); */
 }
 
 #details li {
-    transition: 0.25s;
-    /* padding: 5px; */
-    border-radius: 5px;
-    padding-left: 10px;
+  transition: 0.25s;
+  /* padding: 5px; */
+  border-radius: 5px;
+  padding-left: 10px;
 }
 
 .contacts-links:hover {
-    background-color: rgb(59, 59, 59);
+  background-color: rgb(59, 59, 59);
 }
 
 #details a {
-    color: rgb(200, 200, 200);
-    text-decoration: none;
+  color: rgb(200, 200, 200);
+  text-decoration: none;
+}
+
+.hist-container h3 {
+  font-weight: 700;
+}
+
+.containers-right {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#contacts {
+  background-image: url("../images/contact.png");
+  background-repeat: no-repeat;
+  background-position-y:center;
+  background-position-x:left;
+  padding-left: 30px;
 }
 
