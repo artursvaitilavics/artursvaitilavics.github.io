@@ -26,6 +26,9 @@
   font-weight: 500;
 }
 
+
+
+
 #navbar a:hover {
   background-color: rgb(59, 59, 59);
 }
@@ -236,3 +239,26 @@ header p {
   padding-left: 30px;
 }
 
+#software-skills {
+  background-image: url("../images/AppIcon.png");
+  background-repeat: no-repeat;
+  background-position-y:center;
+  background-position-x:left;
+  padding-left: 30px;
+}
+
+#coding-skills{
+  background-image: url("../images/CodingIcon.png");
+  background-repeat: no-repeat;
+  background-position-y:center;
+  background-position-x:left;
+  padding-left: 30px;
+}
+
+#languages{
+  background-image: url("../images/LanguageIcon.png");
+  background-repeat: no-repeat;
+  background-position-y:center;
+  background-position-x:left;
+  padding-left: 30px;
+}
