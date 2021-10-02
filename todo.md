@@ -1,1 +1,2 @@
-1. Remove gap between EDUCATION/WORK EXPERIENCE and CARD
+- Weird look on navbar once in cv-plain-js
+- navbar buttons not organised properly, should add index in json for navbar buttons

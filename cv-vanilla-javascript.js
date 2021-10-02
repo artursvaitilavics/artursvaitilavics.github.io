@@ -1,31 +1,33 @@
+// helena
+
 document.title = "CV JavaScript";
 
+async function getData() {
+  const response = await fetch("vanilla-js-assets/cv-data.json");
+  const data = await response.json();
+  return data;
+}
 
-const body = document.body;
+async function createNavbar() {
+  const navbar = document.createElement("ul");
+  navbar.setAttribute("id", "navbar");
+  const navbarContent = await getData();
+  const buttons = await navbarContent.navbar;
 
-let bodyStyle = body.style;
-bodyStyle.backgroundColor = '#BED1D1';
-// bodyStyle.textAlign = 'center';
-// bodyStyle.margin = 'auto';
+  buttons.forEach((element) => {
 
+    let li = document.createElement("li");
+    let a = document.createElement("a");
+    let name = document.createTextNode(element.button.name);
+   
+    a.setAttribute("href", element.button.link);
+    a.appendChild(name);
+    li.appendChild(a);
+    navbar.appendChild(li);
 
-const navBar = document.createElement('div');
+  });
+  
+  document.body.appendChild(navbar);
+}
 
-let navBarStyle = navBar.style;
-navBarStyle.backgroundColor = '#4A5252';
-
-
-
-let navBarButton = document.createElement('a') ;
-navBarButton.innerHTML = 'Home';
-let navBarButtonStyle = navBarButton.style;
-
-navBarButtonStyle.padding = '75px';
-navBarButtonStyle.textAlign = 'center';
-navBarButtonStyle.margin = 'auto';
-
-navBar.appendChild(navBarButton);
-
-body.appendChild(navBar);
-
-
+createNavbar();

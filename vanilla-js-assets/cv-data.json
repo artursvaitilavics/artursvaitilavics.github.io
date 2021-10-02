@@ -1,0 +1,103 @@
+{
+  "work-history": [
+    {
+      "company": {
+        "name": "Ubiquiti",
+        "title": "3D generalist",
+        "start-date": "06/2021",
+        "end-date": "Present",
+        "description": "Presponsible for all 3D asset rendering."
+      }
+    },
+    {
+      "company": {
+        "name": "Ubiquiti",
+        "title": "3D/VFX generalist",
+        "start-date": "04/2019",
+        "end-date": "06/2021",
+        "description": "Modeling, texturing, lookdev, lighting, animations, compositing, motion graphics, graphic design, internal tools creation(with Python)"
+      }
+    }
+  ],
+  "education": [
+    {
+      "school": {
+        "name": "SDA",
+        "title": "Java from scratch (378 hours)",
+        "start-date": "04/2020",
+        "end-date": "04/2020 - Jan 2021",
+        "subjects": [
+          {
+            "title": "Deep Dive in to Computer Science",
+            "descriptions": [
+              "Java",
+              "Design patterns",
+              "Software testing",
+              "Java FX"
+            ]
+          },
+          {
+            "title": "The developer's tools",
+            "descriptions": ["Version Control System - GIT"]
+          }
+        ]
+      }
+    },
+    {
+      "school": {
+        "name": "Liepajas Universitate",
+        "title": "Computer Sciences",
+        "start-date": "04/2020",
+        "end-date": "09/2007 - 12/2009",
+        "subjects": [
+          {
+            "title": "C++",
+            "descriptions": [
+              "Introduction to programming",
+              "Data Types",
+              "Conditionals",
+              "Functions",
+              "Classes"
+            ]
+          },
+          {
+            "title": "ActionScript",
+            "descriptions": ["Syntax", "Data types", "OOP"]
+          }
+        ]
+      }
+    }
+  ],
+  "navbar": [
+    {
+      "button": {
+        "name": "home",
+        "link": "index.html"
+      }
+    },
+    {
+      "button": {
+        "name": "cv plain hmtl",
+        "link": "cv-plain-html.html"
+      }
+    },
+    {
+      "button": {
+        "name": "cv html plus css",
+        "link": "cv-with-css.html"
+      }
+    },
+    {
+      "button": {
+        "name": "cv-plain-js",
+        "link": "cv-vanilla-javascript.html"
+      }
+    },
+    {
+      "button": {
+        "name": "Google",
+        "link": "https://www.google.com/"
+      }
+    }
+  ]
+}
