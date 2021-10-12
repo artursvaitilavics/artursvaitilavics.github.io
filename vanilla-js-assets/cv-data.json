@@ -99,5 +99,10 @@
         "link": "https://www.google.com/"
       }
     }
-  ]
+  ],
+  "header": {
+    "name": "Arturs Vaitilavics",
+    "jobTitle": "JUNIOR SOFTWARE DEVELOPER",
+    "title": "ABOUT ME"
+  }
 }
