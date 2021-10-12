@@ -15,18 +15,18 @@ async function createNavbar() {
   const buttons = await navbarContent.navbar;
 
   buttons.forEach((element) => {
-
     let li = document.createElement("li");
     let a = document.createElement("a");
     let name = document.createTextNode(element.button.name);
-   
+
     a.setAttribute("href", element.button.link);
     a.appendChild(name);
     li.appendChild(a);
     navbar.appendChild(li);
-
   });
-  
+
+  document.getElementById("navbar");
+
   document.body.appendChild(navbar);
 }
 
