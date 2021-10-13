@@ -30,9 +30,6 @@ async function createHeader() {
   const content = document.createElement("div");
   const image = document.createElement("div");
 
-  let nameTag = document.createElement("h1");
-  nameTag.setAttribute("id", "name");
-
   let jobTitleTag = document.createElement("h5");
   jobTitleTag.setAttribute("id", "jun-soft-dev");
 
@@ -40,6 +37,10 @@ async function createHeader() {
   titleTag.setAttribute("id", "about-me");
 
   let aboutMeTag = document.createElement("p");
+
+  // let nameTag = createElement("h1", "id", "name", await headerData.header.name)
+  let nameTag = document.createElement("h1");
+  nameTag.setAttribute("id", "name");
 
   const headerData = await getData();
 
@@ -60,6 +61,7 @@ async function createHeader() {
   pic.setAttribute("id", "my-pic");
   pic.setAttribute("src", "resources/images/AV_LinkedIn.jpg");
 
+  // content.appendChild();
   content.appendChild(nameTag);
   content.appendChild(jobTitleTag);
   content.appendChild(titleTag);
@@ -74,5 +76,28 @@ async function createHeader() {
   
 }
 
+function creaetMain() {
+  const main = document.createElement("div");
+  // main.setAttribute("id", "main");
+  // const history = document.createElement("div");
+  // history.setAttribute("id", "history");
+  // const details = document.createElement("div");
+  // details.setAttribute("id", "details");
+
+  // main.appendChild(history);
+  // main.appendChild(details);
+
+// document.body.lastElementChild(main)
+}
+
+// function createElement(_element, _attribute, _attributeValue, _data) {
+//   let element = document.createElement(_element);
+//   element.setAttribute(_attribute, _attributeValue);
+//   let data = document.createTextNode(_data);
+
+//   return element.appendChild(data);
+// }
+
 createNavbar();
 createHeader();
+creaetMain();

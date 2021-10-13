@@ -4,3 +4,6 @@
 
 
 - React Version should be seperate project, that scrapes data from LinkedIn and creates all needed Components
+
+
+- figure out how to add elements in order
